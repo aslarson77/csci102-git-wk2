@@ -5,10 +5,6 @@ def fib():
 
     for i in range(1,9):
 
-        ''' 
-        implement Fibonacci sequence to calculate the 
-        first 10 Fibonacci numbers, note Fn = Fn-1 + Fn-2
-        '''
         fib_n = fibs[i] + fibs[i-1]
         fibs.append(fib_n)
 
